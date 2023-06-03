@@ -7,7 +7,7 @@ async function bootstrap() {
 
   // Configure CORS
   const corsOptions: CorsOptions = {
-    origin: 'https://first-angular-app-alpha.vercel.app',
+    origin: '*',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
   };
